@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>começando java script</title>
+
+    <style>
+     body{
+         background-color: rgba(0, 219, 219, 0.733);
+         color: white;
+         font-size: 1.7em;
+    /*testando comentário em css*/
+
+}
+
+    </style>
+</head>
+<body>
+    <h1>
+        OLÁ, MUNDO!
+        <!--testando comentário em htmml-->
+    </h1>
+    <script>
+        //window.alert('minha primeira mensagem!')
+        //window.confirm('está gostando desse site porcaria?')
+   var nome = window.prompt(
+            'qual o seu nome?'
+        )
+        window.alert(
+            'Olá, ' + nome) //+ é um sinal de concatenação
+        var n1 = Number(window.prompt('digite um número'))
+        var n2 = Number(window.prompt('digite outro número'))
+        var soma = n1 + n2
+        window.alert('soma dos valores é: ' + soma)
+        document.write(`olá ${nome} seu nome tem ${nome.length} letras.` )
+    </script>
+</body>
+</html>
