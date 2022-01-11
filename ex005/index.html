@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando else</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            color: white;
+            font-size: 20px;
+            max-width: 350px;
+            margin: auto;
+        }
+        #quadrado{
+            background-color: rgb(90, 28, 148);
+            padding: 10px;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+  <div id="quadrado">
+    <h1>
+        Sistema da ONU
+     </h1>
+     De qual país você é ? <input type="text" name='pais' id="pais">
+     <input type="button" value="Verificar" onclick="verificar()">
+     <div id="res"></div>
+     <script>
+         function verificar() {
+           var txtv = window.document.querySelector('input#pais')
+           var res = window.document.querySelector('div#res')
+           var pais = (txtv.value)
+         
+          
+          if( pais != 'Brasil', 'brasil') {
+              res.innerHTML += '<p> você é estrangeiro(a)'
+          } else {
+              pais == 'Brasil','brasil' 
+              res.innerHTML += '<p>Você é brasileiro(a)</p>'
+          }
+          
+         
+          
+        
+     }   
+ 
+ 
+ 
+         
+ 
+     </script>
+  </div>
+</body>
+</html>
