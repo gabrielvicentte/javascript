@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições complexas</title>
+</head>
+<body>
+    <header id="quadrado">
+         <h1>
+             Testando mais de uma condição
+         </h1>
+
+    </header>
+    <p>
+       Qual sua idade <input type="number" name="idade" id="idade">
+       <input type="button" value="Verificar" onclick="verificar()">
+       <div id="res"></div>
+    </p>
+<script>
+    function verificar() {
+        var numero = window.document.querySelector('input#idade')
+        var res = window.document.querySelector('div#res')
+        var idade = Number(numero.value)
+        res.innerHTML = `<p> Você tem ${idade} anos ` 
+
+          if (idade < 16 ) {
+              res.innerHTML += 'não vota'
+          } else if (idade == 16){
+              res.innerHTML += 'voto opcional'
+          } else { (idade < 18)
+            res.innerHTML += 'voto obrigatório'
+
+          }
+
+
+            
+
+         
+        
+         
+          
+          
+        
+
+        
+
+    }
+</script>
+</body>
+</html>
