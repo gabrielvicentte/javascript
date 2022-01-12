@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(60, 142, 219);
+}
+
+header{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+section{
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.253) 10px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div#cont{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#res{
+  
+   display: block;
+   text-align: center;
+   margin-bottom: 10px;
+
+  
+
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    margin: auto;
+    text-align: center;
+}
