@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color:  rgba(255, 217, 0, 0.39);
+}
+header{
+    text-align: center;
+    font-family: sans-serif;
+}
+section {
+    margin: auto;
+    background-color: white;
+    max-width: 400px;
+    min-width: 320px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.192) 10px 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+ select{
+ font-size: 20px;
+}
+input{
+    margin: 10px;
+}
