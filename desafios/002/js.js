@@ -20,7 +20,7 @@ function verificar() {
         }
 
          if(fsex[0].checked) {
-             genero = 'homem'
+             genero = 'Homem'
             
             } else {
                 genero = 'mulher'
