@@ -21,6 +21,7 @@
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent);
     color: white;
     min-width: 300px;
+    margin-bottom: 30px;
     
  }
  header > h1 {
@@ -89,7 +90,7 @@
      border-radius: 5px;
      font-family: 'Josefin Sans', sans-serif;
      padding: 10px;
-     margin-bottom: 20px;
+     
  }
  article > p {
      font-size: 20px;
