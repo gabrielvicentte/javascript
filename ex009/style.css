@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, red, transparent);
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    background-color: rgb(250, 249, 249);
+    padding: 10px;
+    max-width: 400px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.205) 10px 10px 20px;
+    
+}
+header {
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.493) 5px 5px 10px;
+}
+#n1, #n2{
+    font-size: 20px;
+    margin: 4px;
+}
+#res{
+    font-size: 20px;
+}
+p > input {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    
+
+    
+}
+input:hover{
+    background-color: rgb(228, 1, 1);
+    color: white;
+}
+footer > p > a{
+    color: white;
+    text-align: center;
+    display: block;
+    max-width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
