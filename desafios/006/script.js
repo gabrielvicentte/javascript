@@ -8,5 +8,7 @@ function calculando(){
    res.innerHTML = ` ${numone} de um total de ${numtwo} é ${ calculo}` 
    if (numone == "" || numtwo == "") {
        res.innerHTML = ('Preencha todos os campos!')
-   } 
+   } else if (numone > numtwo) {
+       res.innerHTML = ('Operação inválida.')
+   }
 }
