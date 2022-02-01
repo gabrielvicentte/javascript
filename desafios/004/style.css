@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    background-image: url(imagens/surrealismo-historia-da-arte-linha-do-tempo-resumo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.781);
+    max-width: 300px;
+    min-width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+#tempo{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+input{
+    font-size: 20px;
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 90px;
+    padding: 5px;
+    
+    
+    
+    
+}
+.in{
+    background-color: rgb(2, 185, 2);
+}
+.ps {
+    background-color: rgb(92, 82, 82);
+}
+.pr {
+    background-color: rgba(255, 0, 0, 0.897);
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <style>
+      
+        body{
+            background-color: rgb(199, 91, 91);
+        }
+        header{
+            text-align: center;
+            font-family: sans-serif;
+        }
+        section{
+            background-color: white;
+            padding: 10px;
+            border-radius: 
+            10px;
+            max-width: 500px;
+            min-width: 320px;
+            text-align: justify;
+            margin: auto;
+            font-size: 1.4em;
+            font-family: sans-serif;
+            
+           
+            
+        }
+       
+        
+        #botao{
+            font-size: 17px;
+            font-family: sans-serif;
+            border: none;
+            background-color: rgb(199, 91, 91);
+            color: white;
+            border-radius: 2px;
+        }
+        #botao:hover{
+            background-color: rgb(175, 80, 80);
+            color: white;
+            text-decoration: none;
+            box-shadow: none;
+            border-radius: 2px;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Calculadora de IMC
+        </h1>
+    </header>
+    <section>
+        <div>
+        <p>
+            Peso(kg): <input type="number" name="n1" id="n1">
+        </p>
+          <p>
+            Altura(cm):<input type="number" name="n2" id="n2">
+          </p>
+            <input id="botao" type="button" value="Calcular" onclick="calcular()">
+        </div>
+       <p> <div id="res"></div></p>
+    </section>
+    <script>
+        function calcular(){
+            var peso = document.querySelector('#n1')
+            var altura = document.querySelector
+            ('#n2')
+            var res = document.querySelector ('#res')
+            p= Number(peso.value)
+            a= Number(altura.value)
+            
+            var imc = p/a**2
+            res.innerHTML = ` ${imc} de IMC `
+            if(p==''||a==''){
+              res.innerHTML=('Dados Isuficientes!')
+            } else if (imc<= 18)
+            res.innerHTML+=('(Magreza)')
+         
+        }
+    </script>
+</body>
+</html>

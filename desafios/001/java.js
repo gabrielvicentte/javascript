@@ -6,8 +6,10 @@ var img = window.document.querySelector('img#imagem')
 var data = new Date()
 var hora = data.getHours()
 var minutos = data.getMinutes()
+var seg = data.getSeconds()
 
-msg.innerHTML = `Agora são: ${hora} horas e ${minutos} minutos`
+
+msg.innerHTML = `${hora <10 ? '0' + hora:hora}:${minutos < 10 ? '0'+minutos:minutos}:${seg<10 ? '0' + seg:seg} `
 
 if(hora >= 0 && hora < 12) {
     img.src = 'imagens/manha.jpg'
@@ -22,7 +24,7 @@ if(hora >= 0 && hora < 12) {
 
 
 
-
+ 
 }
-
+setInterval(carregar, 1)
 
