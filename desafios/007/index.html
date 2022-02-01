@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Calculadora
+        </h1>
+    </header>
+    <main>
+        <section>
+            <div id="conteudo">
+            <table>
+               <p id="valor">
+                   
+               </p>
+
+                <input id="porcentagem" onclick="porcento()" class="botao" type="button" value="%">
+
+                <input class="botao" type="button" value="CE">
+
+                <input id="deletetotal" onclick="deletetotal()" class="botao" type="button" value="C">
+
+                <input id="delete" onclick="deletar()" class="botao" type="button" value="<">
+
+                <input id="num" class="botao" onclick="inserir(7)" type="button" value="7">
+
+                <input id="num" class="botao" onclick="inserir(8)" type="button" value="8">
+
+                <input id="num" class="botao" onclick="inserir(9)" type="button" value="9">
+
+                <input id="multip" onclick="inserir('*')" class="botao" type="button" value="X">
+
+                <input id="num" class="botao" onclick="inserir(4)" type="button" value="4">
+
+                <input id="num" class="botao" onclick="inserir(5)" type="button" value="5">
+
+                <input id="num" class="botao" onclick="inserir(6)" type="button" value="6">
+
+                <input id="sub" class="botao" onclick="inserir('-')" type="button" value="-">
+
+                <input id="num" class="botao" onclick="inserir(1)" type="button" value="1">
+
+                <input id="num" class="botao" onclick="inserir(2)" type="button" value="2">
+
+                <input id="num" class="botao" onclick="inserir(3)" type="button" value="3">
+
+                <input id="soma" onclick="inserir('+')" class="botao" type="button" value="+">
+
+                <input id="divir" class="botao" onclick="inserir('/')" type="button" value="/">
+
+                <input id="num" class="botao" onclick="inserir(0)" type="button" value="0">
+
+                <input id="virg" class="botao" onclick="inserir('.')" type="button" value=".">
+
+                <input id="igual" onclick="calculo()" class="botao" type="button" value="=">
+
+            </table>
+              
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
