@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bháskara</title>
+    <link rel="shortcut icon" href="imagens/delta.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Calculo de Bháskara e Delta
+        </h1>
+    </header>
+    <main>
+        <section>
+         
+            <div id="conteudo">
+                   <h1>Delta</h1>
+                <input type="number" name="a" id="a" placeholder="Valor de A">
+                <input type="number" name="b" id="b" placeholder="Valor de B">
+                <input type="number" name="c" id="c" placeholder="Valor de C">
+                <input id="botao1" type="button" value="=" onclick="calcular()">
+                <p id="resposta"></p>
+            </div>
+        
+            <div id="conteudo2">
+                <h1>
+                    Bháskara
+                </h1>
+               <input type="number" name="ab" id="ab" placeholder="Valor de A">
+               <input type="number" name="bb" id="bb" placeholder="Valor de B">
+               <input type="number" name="cb" id="cb" placeholder="Valor do delta">
+               <input id="botao2" type="button" value="=" onclick="calcular2()">
+               <p id="resposta2"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
