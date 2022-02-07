@@ -9,7 +9,7 @@ function calcular(){
     let delta = b**2 - 4*a*c
     resposta.innerHTML =` Δ = ${delta}` 
     if ( delta < 0) {
-        resposta.innerHTML += ' Não existem raízes reais'
+        resposta.innerHTML += ' ,Não existem raízes reais'
     } else if ( delta === 0) {
          resposta.innerHTML += ' Existem duas raízes reais iguais'
     }
