@@ -9,9 +9,11 @@ function adicionar() {
     if(texto==''){
         anot.innerHTML += ''
     }   else {
-         anot.innerHTML +=  `<ul class="del" id="${c}"> <li> <p >${texto}  <input id="botao"  type="button" value="X" onclick="deletar(${c})"></p> </li> </ul> `
+         anot.innerHTML +=  `<ul class="del" id="${c}"> <li> <p >${texto}  <input id="botao"  type="button" value="X" onclick="deletar(${c})"></p> </li> </ul> ` 
     txt.value = ''
+   
     }
+  anot.classList.toggle('animar')   
 }
 function deletar(id){
     let tarefa = document.getElementById(id)
