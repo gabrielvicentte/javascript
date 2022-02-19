@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+   background-color: rgb(231, 165, 154);
+}
+#interacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+#botao1{
+   display: block;
+   margin: 30px auto;
+   padding: 30px;
+   height: 30px;
+   border-radius: 50%;
+   border-width: 1px;
+   border-color: aliceblue;
+   background-color: rgba(137, 43, 226, 0.685);
+   cursor: pointer;
+   transition-duration: 0.6s;
+
+}
+#botao1:hover{
+    background-color: rgb(104, 34, 170);
+    transition-duration: 0.6s;
+}
+
